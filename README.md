@@ -20,10 +20,18 @@ Tujuan dari proyek ini adalah untuk membangun dan mengonfigurasi **Private Cloud
 Untuk panduan detail instalasi dan konfigurasi, silakan merujuk ke [Cloudstack Installation and Configuration](Cloudstack%20Installation%20and%20Configuration) untuk langkah-langkah teknis yang lebih mendalam.
 
 ## Technologies Used
-- **Apache CloudStack**: Platform IaaS untuk mengelola cloud pribadi.
-- **Ubuntu Server 24.04**: Sistem operasi yang digunakan untuk mengonfigurasi lingkungan cloud.
-- **KVM Hypervisor**: Teknologi virtualisasi yang digunakan untuk membuat dan mengelola mesin virtual.
-- **iptables**: Konfigurasi firewall untuk memastikan komunikasi yang aman antar komponen dalam cloud.
+1. **Apache CloudStack**
+Apache CloudStack adalah platform open-source untuk membangun dan mengelola cloud pribadi dan publik. Sebagai penyedia **Infrastructure-as-a-Service (IaaS)**, CloudStack memungkinkan administrator untuk mengelola mesin virtual (VM), storage, dan jaringan dalam skala besar. Dengan fitur seperti multi-tenancy, automasi, dan manajemen sumber daya yang mudah, CloudStack memungkinkan penyedia layanan cloud untuk mengelola dan mengoptimalkan lingkungan virtual mereka secara efektif. CloudStack mendukung berbagai hypervisor dan menyediakan API serta antarmuka pengguna yang intuitif untuk mempermudah administrasi cloud.
+2. **Ubuntu Server 24.04**
+Ubuntu Server adalah sistem operasi berbasis Linux yang populer digunakan dalam pengelolaan server dan infrastruktur cloud. Dalam proyek ini, **Ubuntu Server 24.04** digunakan sebagai dasar sistem operasi untuk host cloud pribadi. Ubuntu dikenal karena kestabilannya, kemudahan penggunaan, serta komunitas besar yang menyediakan banyak dokumentasi dan dukungan. Ubuntu Server juga cocok untuk digunakan dalam cloud computing karena skalabilitas dan kemampuannya untuk mendukung berbagai aplikasi dan layanan.
+3. **KVM Hypervisor**
+**KVM (Kernel-based Virtual Machine)** adalah solusi virtualisasi berbasis kernel Linux yang memungkinkan eksekusi mesin virtual di server fisik. KVM mendukung berbagai sistem operasi tamu, termasuk Linux, Windows, dan lainnya, menjadikannya pilihan yang sangat baik untuk mengelola beban kerja cloud. Dalam proyek ini, KVM digunakan sebagai hypervisor untuk menyediakan virtualisasi mesin di cloud yang dibangun dengan CloudStack. KVM mengintegrasikan langsung dengan kernel Linux, memberikan kinerja yang efisien dan skalabilitas yang baik dalam lingkungan virtual.
+4. **iptables**
+**iptables** adalah alat untuk mengonfigurasi firewall di sistem berbasis Linux, termasuk Ubuntu. Alat ini digunakan untuk memfilter dan mengontrol aliran lalu lintas jaringan pada server yang menjalankan CloudStack. Dalam proyek ini, **iptables** digunakan untuk membuka dan memblokir port tertentu untuk memastikan keamanan dan integritas sistem cloud pribadi yang sedang dibangun. Konfigurasi firewall yang tepat penting untuk melindungi sistem dari akses yang tidak sah dan mengatur komunikasi antar node dalam cloud.
+5. **UUID (Universally Unique Identifier)**
+UUID adalah standar pengidentifikasi yang digunakan untuk menghasilkan ID unik pada sistem komputasi. Dalam proyek ini, UUID digunakan untuk menghasilkan ID unik untuk setiap host dalam konfigurasi CloudStack. Dengan menggunakan UUID, kita dapat memastikan bahwa setiap node dalam cloud memiliki identitas yang dapat dibedakan, yang sangat penting untuk manajemen sumber daya dan pengelolaan cluster dalam lingkungan cloud yang besar.
+6. **qemu-kvm**
+**qemu-kvm** adalah paket yang memungkinkan KVM untuk digunakan dengan perangkat keras virtualisasi penuh. QEMU (Quick Emulator) adalah emulator mesin yang dapat menjalankan berbagai sistem operasi dalam mode virtual. Dalam konteks proyek ini, **qemu-kvm** digunakan untuk mengonfigurasi dan menjalankan mesin virtual yang terisolasi di dalam server fisik yang meng-host cloud pribadi. Integrasi KVM dengan QEMU memungkinkan penggunaan sumber daya perangkat keras secara lebih efisien dan mengoptimalkan kinerja VM.
 
 ## License
 
