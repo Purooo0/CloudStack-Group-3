@@ -17,7 +17,7 @@ Tujuan dari proyek ini adalah untuk membangun dan mengonfigurasi **Private Cloud
 4. Meningkatkan pemahaman tentang cara menambah node, mengonfigurasi jaringan, dan mengelola sumber daya cloud di berbagai lingkungan fisik.
 
 ## Setup Guide
-Untuk panduan detail instalasi dan konfigurasi, silakan merujuk ke [Cloudstack Installation and Configuration.md](Cloudstack Installation and Configuration.md) untuk langkah-langkah teknis yang lebih mendalam.
+Untuk panduan detail instalasi dan konfigurasi, silakan merujuk ke [Cloudstack Installation and Configuration.md](Cloudstack%20Installation%20and%20Configuration.md) untuk langkah-langkah teknis yang lebih mendalam.
 
 ## Technologies Used
 - **Apache CloudStack**: Platform IaaS untuk mengelola cloud pribadi.
