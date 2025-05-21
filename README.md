@@ -37,6 +37,7 @@ sudo nano 01-netcfg.yaml
 ```
 
 **Jika file sudah ada, kemungkinan akan terlihat seperti ini:**
+**NOTE: TIDAK BISA MENGGUNAKAN WIFI, HARUS MENGGUNAKAN ETHERNET. MAKA DARI ITU SEDIAKAN KABEL LAN DAN KEMUDIAN HUBUNGKAN DENGAN ROUTER DI RUMAH KALIAN**
 
 ```
 # This is the network config written by 'subiquity'
@@ -52,12 +53,15 @@ network:
 
 **Jika baru dibuat, maka file akan kosong.**
 
-**Ubah file menjadi seperti ini. Nama port untuk ethernets disesuaikan dengan nama port yang ada pada laptop masing-masing. Port bisa dilihat dengan cara menjalankan command**
+**Ubah file menjadi seperti ini.** </br>
+**Nama port untuk ethernets disesuaikan dengan nama port yang ada pada laptop masing-masing. Port bisa dilihat dengan cara menjalankan command**</br>
 ```
 ip a
 ```
+**IP Address juga dapat dilihat dengan menjalankan command tersebut (jika sudah terhubung dengan kabel ethernet dan WAJIB MENGGUNAKAN KABEL ETHERNET)**
 
 **Cari port yang berawalan dengan en (contoh di sini misalnya enp1s0)**
+
 
 ![image](https://hackmd.io/_uploads/SysWX7jWex.png)
 
@@ -205,7 +209,15 @@ systemctl status mysql
 ```
 > ![image](https://hackmd.io/_uploads/HkmdPQiWxl.png)
 
-### Deploy Database as Root and Then Create "cloud" User with Password "cloud" too
+### Deploy Database as Root and Then Create "cloud" User with Password "cloud" too.Make sure your laptop's root account password matches
+
+**To change your laptop's root account, insert this command**
+
+```
+sudo passwd root
+# It will then ask for a password, in this case we will use, so type it in Pa$$w0rd
+# It will then ask you to re-enter the password again.
+```
 
 ```
 cloudstack-setup-databases cloud:cloud@localhost --deploy-as=root:Pa$$w0rd -i 192.168.104.24
