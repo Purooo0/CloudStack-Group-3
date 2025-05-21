@@ -445,8 +445,10 @@ http://192.168.0.242:8080
 username : admin 
 password : password
 ```
+#### Setup Basic Zone
+[Tersedia dalam bentuk video](https://youtu.be/h7UMVRyZawU)
 
-#### setup Zone
+#### Setup Advanced Zone
 > ![image](https://hackmd.io/_uploads/SJkzpmsbxe.png)
 
 > ![image](https://hackmd.io/_uploads/By2E6Qo-lx.png)
