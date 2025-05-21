@@ -1,17 +1,12 @@
 # Apache CloudStack Private Cloud Setup
 [Link YouTube](https://youtu.be/h7UMVRyZawU)
 
-<div style="background-color: #dfd5d4; padding: 15px; border-radius: 8px; color: #27272a;">
-<b>Contributors :</b>
-<ul>
-  <li style="color: #27272a;">Adhelia Putri Maylani (2206814816)</li>
-  <li style="color: #27272a;">Beres Bakti Parsaoran Siagian (2206817585)
-</li>
-  <li style="color: #27272a;">Nahl Syareza Rahidra (2206830340)</li>
-  <li style="color: #27272a;">Nakita Rahma Dinanti (2206059401)</li>
-  <li style="color: #27272a;">Tanto Efrem Lesmana (2206031391)</li>
-</ul>
-</div>
+## Contributors
+- Adhelia Putri Maylani (2206814816)
+- Beres Bakti Parsaoran Siagian (2206817585)
+- Nahl Syareza Rahidra (2206830340)
+- Nakita Rahma Dinanti (2206059401)
+- Tanto Efrem Lesmana (2206031391)
 
 ## Project Overview
 Tujuan dari proyek ini adalah untuk membangun dan mengonfigurasi **Private Cloud** menggunakan **Apache CloudStack**, sebuah platform open-source yang memungkinkan penerapan **Infrastructure-as-a-Service (IaaS)**. Proyek ini bertujuan untuk memberikan pemahaman yang lebih baik tentang cara mengelola cloud pribadi serta memberikan pengalaman praktis dalam pengaturan cloud computing, dengan menggunakan **Ubuntu Server** dan **KVM Hypervisor**.
