@@ -19,24 +19,24 @@ Tujuan dari proyek ini adalah untuk membangun dan mengonfigurasi **Private Cloud
 
 ## Computing Environment Setup
 
-### Network Address
+### Konfigurasi Jaringan
 
 ```
 Network Address : 192.168.0.0/24
 Host IP address : 192.168.0.242/24
 Gateway : 192.168.0.1
-Public IP : 100.73.78.15
+Public IP : 100.73.78.15 (Menggunakan Tailscale)
 ```
 
-### Configure Network
+### Konfigurasi Network
 
-**Edit the network configuration file under /netplan directory**
+**Ubah file yang terdapat di dalam folder /etc/netplan. Jika belum ada file, silakan dibuat sendiri dengan format <nama-file>.yaml. Di sini kita akan menggunakan/membuat file 01-netcfg.yaml**
 ```
 cd /etc/netplan
-sudo nano ./0*.yaml
+sudo nano 01-netcfg.yaml
 ```
 
-**The opened file will look like this:**
+**Jika file sudah ada, kemungkinan akan terlihat seperti ini:**
 
 ```
 # This is the network config written by 'subiquity'
@@ -49,6 +49,8 @@ network:
       nameservers:
         addresses: [10.1.1.1,8.8.8.8]   # DNS Server
 ```
+
+**Jika baru dibuat, maka file akan kosong.**
 
 **Edit the file**
 
