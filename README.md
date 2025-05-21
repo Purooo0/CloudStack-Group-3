@@ -52,7 +52,12 @@ network:
 
 **Jika baru dibuat, maka file akan kosong.**
 
-**Edit the file**
+**Ubah file menjadi seperti ini. Nama port untuk ethernets disesuaikan dengan nama port yang ada pada laptop masing-masing. Port bisa dilihat dengan cara menjalankan command**
+```
+ip a
+```
+
+**Cari port yang berawalan dengan en (contoh di sini misalnya enp1s0)**
 
 ![image](https://hackmd.io/_uploads/SysWX7jWex.png)
 
