@@ -725,10 +725,15 @@ Agar VM dapat menerima koneksi **SSH** dan juga dapat **melakukan dan menerima p
 ### Providing HTTP/HTTPS Server
 #### Enable MagicDNS and HTTPS in Admin Console
 Buka Tailscale Admin Console, kemudian pergi ke tab 'DNS'.
+
 ![image](https://hackmd.io/_uploads/B16vKUoWxe.png)
+
 Aktifkan MagicDNS jika belum diaktifkan. MagicDNS memungkinkan penamaan perangkat yang lebih mudah di jaringan Tailscale.
+
 ![image](https://hackmd.io/_uploads/ry6CK8iWlg.png)
+
 Di bagian HTTPS Certificates, klik Enable HTTPS. Nantinya akan diminta untuk mengonfirmasi bahwa nama perangkat dan tailnet akan dipublikasikan di ledger publik.
+
 ![image](https://hackmd.io/_uploads/Sy-VcIs-lg.png)
 
 #### Select the Machine to Configure HTTPS
