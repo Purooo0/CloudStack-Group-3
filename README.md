@@ -52,8 +52,8 @@ network:
 ```
 
 **Jika baru dibuat, maka file akan kosong.**
+**Ubah file menjadi seperti di atas.** </br>
 
-**Ubah file menjadi seperti ini.** </br>
 **Nama port untuk ethernets disesuaikan dengan nama port yang ada pada laptop masing-masing. Port bisa dilihat dengan cara menjalankan command**</br>
 ```
 ip a
