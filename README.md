@@ -96,6 +96,5 @@ Arsitektur sistem dari cloud pribadi ini dibangun untuk mendukung berbagai mesin
 5. **Multi-host Configuration**
    Untuk mendukung skalabilitas dan redundansi, beberapa host server dapat dikonfigurasi untuk bekerja sama dalam satu cloud. Host-host ini dapat berbagi beban dan menyediakan failover untuk memastikan ketersediaan yang tinggi.
 
-### Architecture Diagram
-
 ## Reference
+https://github.com/AhmadRifqi86/cloudstack-install-and-configure/tree/main/cloudstack-install
