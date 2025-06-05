@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/fe4800a1-3a6d-4ec6-8ddb-16162d6ec6b0)
+[![Logo](https://github.com/user-attachments/assets/fe4800a1-3a6d-4ec6-8ddb-16162d6ec6b0)](https://ee.ui.ac.id/)
 
 # Apache CloudStack Private Cloud Setup
 [Link YouTube](https://youtu.be/h7UMVRyZawU)
